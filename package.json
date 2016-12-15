@@ -1,0 +1,18 @@
+{
+  "name": "signer",
+  "version": "0.1.0",
+  "description": "Simple transaction signing application",
+  "author": "Parity Technologies <admin@parity.io>",
+  "main": "main.js",
+  "dependencies": {
+    "elliptic": "^6.3.2",
+    "ethereumjs-tx": "^1.2.0",
+    "fs": "0.0.1-security",
+    "jquery": "^3.1.1",
+    "js-sha3": "^0.5.5",
+    "jsqrcode": "0.0.6",
+    "sha3": "^1.2.0",
+    "word-list": "^1.0.1",
+    "word-list-json": "^0.2.0"
+  }
+}

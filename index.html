@@ -1,0 +1,22 @@
+<?doctype html>
+<html>
+	<head>
+		<title>Signer</title>
+		<script src="lib/jquery-3.1.1.min.js"></script>
+		<script src="lib/jsqrcode-combined-GAV.js"></script>
+		<script src="lib/html5-qrcode.min.js"></script>
+		<script src="lib/jquery.qrcode.min.js"></script>
+		<script src="bundle.js"></script>
+		<link href="main.css" rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>Signer</h1>
+		<div id="reader-surround" class="done"><div id="reader"></div><div><button id="randomKey">Random</button><input id="newKey"><span id="newAddr"></span><button id="addKey">Add</button><div id="keys"></div></div></div>
+		<div id="signing" class="done">
+			<div id="transaction"></div>
+			<div id="from"></div>
+			<button id="doSign">Sign</button><button id="doReject">Reject</button>
+		</div>
+		<div id="signed-surround" class="done"><div id="signed"></div><button id="doneSign">Done</button></div>
+	</body>
+</html>
