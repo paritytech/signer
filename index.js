@@ -1,7 +1,7 @@
 var EC = require('elliptic').ec;
 var ec = new EC('secp256k1');
 var keccak_256 = require('js-sha3').keccak_256;
- 
+
 function toBinary(hex) {
 	var ret = '';
 	for (var i = 0; i < hex.length / 2; ++i)
@@ -108,7 +108,7 @@ function modeSigned(data) {
 }
 function videoError(videoError) {
 	console.log(`Error reading video: ${JSON.stringify(videoError)}`);
-}			
+}
 $(document).ready(() => {
 	$('#doSign').click(() => {
 		// sign the real transaction mode.signing.transaction from mode.signing.from to give signature
@@ -160,7 +160,7 @@ function wordList() { return ['abacus', 'abdomen', 'abdominal', 'abide', 'abidin
 window.Buffer = Buffer;
 window.toHex = toHex;
 window.keccak_256 = keccak_256;
-window.ec = ec; 
+window.ec = ec;
 window.fromPhrase = fromPhrase;
 window.toAddress = toAddress;
 window.wordList = wordList;
