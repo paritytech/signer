@@ -14,5 +14,8 @@
     "sha3": "^1.2.0",
     "word-list": "^1.0.1",
     "word-list-json": "^0.2.0"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4"
   }
 }
